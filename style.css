@@ -1,3 +1,35 @@
 body {
     font-family: 'Jura', sans-serif;
 }
+.carouselComfort .carousel-item {
+    width: 100% !important;
+    height: 100% !important;
+}
+.secondSlider {
+    margin-bottom: 50px;
+}
+.carouselComfort {
+    margin-top: 30px;
+}
+.h3Comfort {
+    margin: 0;
+}
+.comfortLi {
+    display: flex;
+    padding: 3px;
+}
+.comfortLi .fa-check-circle {
+    font-size: 30px;
+    margin: 3px;
+}
+.comfortLi p {
+    margin: 9px 0 0 0;
+    font-size: 15px;
+}
+.buttonComfort {
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
