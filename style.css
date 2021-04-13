@@ -1,3 +1,36 @@
 body {
     font-family: 'Jura', sans-serif;
 }
+
+header {
+    background: url(img/main_bg.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header_content {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.title {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: calc(4.2rem + (4.2-3) * ((100vw -320px) / (1200-320)));
+}
+
+.title::after {
+    content: 'Совмещай активный образ жизни с комфортом ';
+    font-size: calc(2rem + (2-1) * ((100vw -320px) / (1200-320)));
+    text-align: right;
+}
+
+@media only screen and (max-width: 380px) {
+    .title {
+        font-size: calc(3.5rem + (3.5-2) * ((100vw -320px) / (1200-320)));
+    }
+}
