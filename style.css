@@ -1,3 +1,68 @@
 body {
     font-family: 'Jura', sans-serif;
 }
+
+.client_review,
+.client_questions,
+.secure_policy {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.small_img {
+    width: 150px !important;
+}
+
+.head_text {
+    font-weight: 700 !important;
+    text-align: center;
+}
+
+.head_text_descr {
+    font-size: 2.92rem;
+    margin: 0 0 30px 0;
+}
+
+.carousel_padding {
+    padding: 20px;
+}
+
+.carousel-slider-heigth {
+    height: 400px !important;
+}
+
+.secure_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.secure_descr_bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.warning {
+    padding-top: 10px !important;
+    text-align: center;
+    font-size: 70px;
+    color: red;
+}
+
+.warning_descr {
+    text-align: start;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    color: inherit !important;
+}
