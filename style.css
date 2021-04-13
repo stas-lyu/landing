@@ -1,3 +1,21 @@
+:root {
+    --star-color: #d19f6b;
+}
+
 body {
     font-family: 'Jura', sans-serif;
+}
+
+.starColor {
+    color: var(--star-color);
+}
+
+.carousel .indicators .indicator-item.active{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+}
+.t-35{
+    margin-top: 35px !important;
 }
