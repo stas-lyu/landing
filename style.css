@@ -19,3 +19,7 @@ body {
 .t-35{
     margin-top: 35px !important;
 }
+.modal-content{
+    width: 1200px;
+    display: flex;
+}
