@@ -43,7 +43,65 @@ header {
 .t-35{
     margin-top: 35px !important;
 }
+/*ModalCatalog*/
+.product_slider .carousel img {
+    width: 100% !important;
+    height: 300px !important;
+}
+.catalog-container h1 {
+    text-align: center;
+}
+.catalog-container {
+    padding-bottom: 100px;
+}
+.product_ul li {
+    padding: 10px 0;
+}
+.product_slider {
+    margin-bottom: 30px;
+}
+.product_slider .btn {
+    float: right;
+}
+.product_price {
+    font-weight: bold;
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+}
+.modal_flex {
+    display: flex;
+}
+.modal-content form{
+     display: flex;
+    flex-direction: column;
+    width: 500px !important;
+}
+.modal-content input::placeholder {
+    text-align: center;
+}
+.modal-content #btnSubmit {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+}
+.modal_ul {
+    padding-left: 20px;
+}
+.modal-content .modal_ul ul li {
+    padding:10px 0;
+}
+.modal_img img{
+    width: 400px;
+}
 
+
+
+/*SecondSlider*/
 .carouselComfort .carousel-item {
     width: 100% !important;
     height: 100% !important;
