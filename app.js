@@ -13,7 +13,6 @@
             fullWidth: true
         });
         $('.modal').modal();
-
         const products = document.querySelectorAll('.product_slider');
         const modalImg = document.querySelector('.modal_img');
         const modalText = document.querySelector('.modal_ul');
