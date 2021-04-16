@@ -1,9 +1,11 @@
 body {
     font-family: 'Jura', sans-serif;
 }
+
 :root {
     --star-color: #d19f6b;
 }
+
 header {
     background: url(img/main_bg.png);
     background-size: cover;
@@ -14,6 +16,10 @@ header {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+}
+
+.carousel .carousel-slider {
+    height: 300px !important;
 }
 
 .title {
@@ -30,45 +36,100 @@ header {
     font-size: calc(2rem + (2-1) * ((100vw -320px) / (1200-320)));
     text-align: right;
 }
+
 .starColor {
     color: var(--star-color);
 }
 
-.carousel .indicators .indicator-item.active{
+.carousel .indicators .indicator-item {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.carousel .indicators .indicator-item.active {
     display: inline-block;
     position: relative;
     cursor: pointer;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.8) !important;
 }
-.t-35{
+
+.t-35 {
     margin-top: 35px !important;
 }
+
+
+/* .modal-window {} */
+
+.info_bag {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.product_price>.old_price {
+    text-decoration: line-through;
+}
+
+.modal-trigger {
+    margin: 2rem auto;
+}
+
+.bag_name {
+    font-size: 34px;
+}
+
+.product_price>.new_price {
+    font-weight: bold;
+}
+
+.btn_div_modal {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+/* .carousel.carousel-slider .carousel-item {
+    min-height: 300px !important;
+}
+
+.carousel.carousel-slider {
+    height: 300px !important;
+} */
 
 .carouselComfort .carousel-item {
     width: 100% !important;
     height: 100% !important;
 }
+
 .secondSlider {
     margin-bottom: 50px;
 }
+
 .carouselComfort {
     margin-top: 30px;
 }
+
 .h3Comfort {
     margin: 0;
 }
+
 .comfortLi {
     display: flex;
     padding: 3px;
 }
+
 .comfortLi .fa-check-circle {
     font-size: 30px;
     margin: 3px;
 }
+
 .comfortLi p {
     margin: 9px 0 0 0;
     font-size: 15px;
 }
+
 .buttonComfort {
     padding: 10px 15px;
     background-color: #000;
@@ -147,4 +208,3 @@ header {
         font-size: calc(3.5rem + (3.5-2) * ((100vw -320px) / (1200-320)));
     }
 }
-
